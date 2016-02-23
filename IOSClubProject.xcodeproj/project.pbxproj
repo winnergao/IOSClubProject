@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6763B2B11C7BD79200AB1176 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763B2B01C7BD79200AB1176 /* iTunesArtwork@2x.png */; };
+		677E1BAE1C754F7A00AF65DE /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677E1BAD1C754F7A00AF65DE /* CounterViewController.m */; };
+		677E1BB11C754F9000AF65DE /* TotalCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677E1BB01C754F9000AF65DE /* TotalCountViewController.m */; };
 		67B9F3261C753CBE00DBB32C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9F3251C753CBE00DBB32C /* main.m */; };
 		67B9F3291C753CBE00DBB32C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9F3281C753CBE00DBB32C /* AppDelegate.m */; };
 		67B9F32C1C753CBE00DBB32C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9F32B1C753CBE00DBB32C /* ViewController.m */; };
@@ -16,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6763B2B01C7BD79200AB1176 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../../../../Downloads/icons/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		677E1BAC1C754F7A00AF65DE /* CounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
+		677E1BAD1C754F7A00AF65DE /* CounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
+		677E1BAF1C754F9000AF65DE /* TotalCountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalCountViewController.h; sourceTree = "<group>"; };
+		677E1BB01C754F9000AF65DE /* TotalCountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalCountViewController.m; sourceTree = "<group>"; };
 		67B9F3211C753CBE00DBB32C /* IOSClubProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSClubProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B9F3251C753CBE00DBB32C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67B9F3271C753CBE00DBB32C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,7 +71,12 @@
 				67B9F32A1C753CBE00DBB32C /* ViewController.h */,
 				67B9F32B1C753CBE00DBB32C /* ViewController.m */,
 				67B9F32D1C753CBE00DBB32C /* Main.storyboard */,
+				677E1BAF1C754F9000AF65DE /* TotalCountViewController.h */,
+				677E1BB01C754F9000AF65DE /* TotalCountViewController.m */,
+				677E1BAC1C754F7A00AF65DE /* CounterViewController.h */,
+				677E1BAD1C754F7A00AF65DE /* CounterViewController.m */,
 				67B9F3301C753CBE00DBB32C /* Assets.xcassets */,
+				6763B2B01C7BD79200AB1176 /* iTunesArtwork@2x.png */,
 				67B9F3321C753CBE00DBB32C /* LaunchScreen.storyboard */,
 				67B9F3351C753CBE00DBB32C /* Info.plist */,
 				67B9F3241C753CBE00DBB32C /* Supporting Files */,
@@ -140,6 +153,7 @@
 				67B9F3341C753CBE00DBB32C /* LaunchScreen.storyboard in Resources */,
 				67B9F3311C753CBE00DBB32C /* Assets.xcassets in Resources */,
 				67B9F32F1C753CBE00DBB32C /* Main.storyboard in Resources */,
+				6763B2B11C7BD79200AB1176 /* iTunesArtwork@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677E1BB11C754F9000AF65DE /* TotalCountViewController.m in Sources */,
 				67B9F32C1C753CBE00DBB32C /* ViewController.m in Sources */,
+				677E1BAE1C754F7A00AF65DE /* CounterViewController.m in Sources */,
 				67B9F3291C753CBE00DBB32C /* AppDelegate.m in Sources */,
 				67B9F3261C753CBE00DBB32C /* main.m in Sources */,
 			);
@@ -301,6 +317,7 @@
 				67B9F33A1C753CBE00DBB32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
