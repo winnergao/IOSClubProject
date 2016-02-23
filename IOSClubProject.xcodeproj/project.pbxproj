@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6763B2B11C7BD79200AB1176 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6763B2B01C7BD79200AB1176 /* iTunesArtwork@2x.png */; };
+		6763B2B41C7BDCD500AB1176 /* BalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6763B2B31C7BDCD500AB1176 /* BalanceViewController.m */; };
 		677E1BAE1C754F7A00AF65DE /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677E1BAD1C754F7A00AF65DE /* CounterViewController.m */; };
 		677E1BB11C754F9000AF65DE /* TotalCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 677E1BB01C754F9000AF65DE /* TotalCountViewController.m */; };
 		67B9F3261C753CBE00DBB32C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B9F3251C753CBE00DBB32C /* main.m */; };
@@ -20,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		6763B2B01C7BD79200AB1176 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "../../../../Downloads/icons/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		6763B2B21C7BDCD500AB1176 /* BalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceViewController.h; sourceTree = "<group>"; };
+		6763B2B31C7BDCD500AB1176 /* BalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceViewController.m; sourceTree = "<group>"; };
 		677E1BAC1C754F7A00AF65DE /* CounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
 		677E1BAD1C754F7A00AF65DE /* CounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
 		677E1BAF1C754F9000AF65DE /* TotalCountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalCountViewController.h; sourceTree = "<group>"; };
@@ -47,6 +50,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6763B2B51C7BDCED00AB1176 /* Balance Files */ = {
+			isa = PBXGroup;
+			children = (
+				6763B2B21C7BDCD500AB1176 /* BalanceViewController.h */,
+				6763B2B31C7BDCD500AB1176 /* BalanceViewController.m */,
+			);
+			name = "Balance Files";
+			sourceTree = "<group>";
+		};
+		6763B2B61C7BDD0900AB1176 /* Counter Files */ = {
+			isa = PBXGroup;
+			children = (
+				677E1BAC1C754F7A00AF65DE /* CounterViewController.h */,
+				677E1BAD1C754F7A00AF65DE /* CounterViewController.m */,
+			);
+			name = "Counter Files";
+			sourceTree = "<group>";
+		};
 		67B9F3181C753CBE00DBB32C = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +92,10 @@
 				67B9F32A1C753CBE00DBB32C /* ViewController.h */,
 				67B9F32B1C753CBE00DBB32C /* ViewController.m */,
 				67B9F32D1C753CBE00DBB32C /* Main.storyboard */,
+				6763B2B51C7BDCED00AB1176 /* Balance Files */,
 				677E1BAF1C754F9000AF65DE /* TotalCountViewController.h */,
 				677E1BB01C754F9000AF65DE /* TotalCountViewController.m */,
-				677E1BAC1C754F7A00AF65DE /* CounterViewController.h */,
-				677E1BAD1C754F7A00AF65DE /* CounterViewController.m */,
+				6763B2B61C7BDD0900AB1176 /* Counter Files */,
 				67B9F3301C753CBE00DBB32C /* Assets.xcassets */,
 				6763B2B01C7BD79200AB1176 /* iTunesArtwork@2x.png */,
 				67B9F3321C753CBE00DBB32C /* LaunchScreen.storyboard */,
@@ -165,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				677E1BB11C754F9000AF65DE /* TotalCountViewController.m in Sources */,
+				6763B2B41C7BDCD500AB1176 /* BalanceViewController.m in Sources */,
 				67B9F32C1C753CBE00DBB32C /* ViewController.m in Sources */,
 				677E1BAE1C754F7A00AF65DE /* CounterViewController.m in Sources */,
 				67B9F3291C753CBE00DBB32C /* AppDelegate.m in Sources */,

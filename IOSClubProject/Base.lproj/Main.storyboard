@@ -9,7 +9,7 @@
         <!--Title-->
         <scene sceneID="HbQ-vp-a55">
             <objects>
-                <viewController id="ykQ-9B-0hT" sceneMemberID="viewController">
+                <viewController id="ykQ-9B-0hT" customClass="BalanceViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IaW-LI-kMF"/>
                         <viewControllerLayoutGuide type="bottom" id="LPc-9c-icb"/>
@@ -17,14 +17,32 @@
                     <view key="view" contentMode="scaleToFill" id="3sm-pQ-EVd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="arrow left" translatesAutoresizingMaskIntoConstraints="NO" id="Yfr-Gi-HSw">
+                                <rect key="frame" x="20" y="213" width="104" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="A7n-lh-0cq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="arrow right" translatesAutoresizingMaskIntoConstraints="NO" id="5QB-gE-91O">
+                                <rect key="frame" x="196" y="213" width="104" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="YxR-UE-ymQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yfr-Gi-HSw" firstAttribute="leading" secondItem="3sm-pQ-EVd" secondAttribute="leadingMargin" id="10W-WK-Uxr"/>
+                            <constraint firstItem="5QB-gE-91O" firstAttribute="trailing" secondItem="3sm-pQ-EVd" secondAttribute="trailingMargin" id="p3Y-fU-o60"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="533-8a-yAA"/>
+                    <tabBarItem key="tabBarItem" title="Balance" id="533-8a-yAA"/>
                     <navigationItem key="navigationItem" title="Title" id="5G0-4y-9aQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N1p-dT-bQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="862"/>
+            <point key="canvasLocation" x="644" y="862"/>
         </scene>
         <!--Counter-->
         <scene sceneID="K8d-yl-CGI">
@@ -193,4 +211,8 @@
             <point key="canvasLocation" x="-198" y="862"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="arrow left" width="100" height="100"/>
+        <image name="arrow right" width="100" height="100"/>
+    </resources>
 </document>
